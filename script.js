@@ -1,5 +1,5 @@
 // --- Global State Variables and Constants ---
-const API_URL = "https://digi-gaurdian-backend.onrender.com/api/users"; // Set your actual API URL here!
+const API_URL = "https://xtgeydkll.localto.net"; // Set your actual API URL here!
 const SURVEY_URLS = {
     women: "https://docs.google.com/forms/d/e/1FAIpQLSe4HjKyM5alkA4Zv8DOKdNQ4sBQNnKKo_i7gqVdy4dz2pYn7A/viewform?usp=dialog",
     financial: "https://docs.google.com/forms/d/e/1FAIpQLSeuYIbN9KlLACi8FOqFUtmQOj7yRoyIVswXNOJn6hePXPV-kw/viewform?usp=dialog",
@@ -323,4 +323,5 @@ window.addEventListener('load', () => {
     if (sliderInterval && document.getElementById('main-portal').classList.contains('hidden-content')) {
         clearInterval(sliderInterval);
     }
+
 });
